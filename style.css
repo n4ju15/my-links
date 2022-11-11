@@ -12,7 +12,7 @@ img {
     width: 100%;
     border-radius: 50%;
     width: 320px;
-    border: 4px solid limegreen;
+    border: 4px solid #973549;
 }
 
 h1 {
@@ -36,7 +36,7 @@ li {
 }
 
 a {
-    background-color: limegreen;
+    background-color: #973549;
     color: white;
     padding: 15px;
     text-decoration: none;
@@ -45,8 +45,8 @@ a {
 }
 
 a:hover {
-    background-color: white;
-    color: limegreen;
+    background-color: #DABBB5;
+    color: #973549;
     transition: 0.5s;
 }
 
