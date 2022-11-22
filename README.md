@@ -4,7 +4,7 @@ Projeto desenvolvido em HTML e CSS com o objetivo de em apenas uma tela exibir n
 
 🔗 [Click here to access](https://n4ju15.github.io/my-links/)
 
-![screenshot](images/)
+![screenshot](images/read.me.mylinks.png)
 
 ## Tecnologias
 
