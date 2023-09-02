@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -7,20 +7,33 @@
     <title>My Links</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/iconemylinks.png">
+    <script src="https://kit.fontawesome.com/f08420f9a0.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <div class="container">
-        <img src="images/perfil.jpg" alt="Foto de Ana Júlia">
+        <div>
+            <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+        <img src="images/perfil.jpeg" alt="Foto de Ana Júlia">
         <h1 class="container_text">Ana Júlia Gári Albano</h1>
-        <p>Software Developer</p>
-    
+        <p class="function">Software Developer</p>
+
         <ul>
-            <li>
+            <!--
+                <li>
                 <a href="https://anajuliaalbano.netlify.app/" target="_blank">Portifólio</a>
             </li>
+            -->
             <li>
-                <a href="https://wa.me/+5516988276976?text=Olá, gostaria de mais informações!" target="_blank">WhatsApp</a>
+                <a href="https://wa.me/+5516988276976?text=Olá, gostaria de mais informações!"
+                    target="_blank">WhatsApp</a>
             </li>
             <li>
                 <a href="https://www.linkedin.com/in/ana-júlia-albano" target="_blank">Linkedin</a>
@@ -39,9 +52,10 @@
             </li>
         </ul>
 
+        <footer>
+             <span class="bold">Feito com ❤ por Ana Júlia Gári Albano &copy; 2022</span></p>
+        </footer>
     </div>
 </body>
-<footer>
-    <p><span class="bold">Feito com ❤ por Ana Júlia Gári Albano &copy; 2022</span></p>
-</footer>
+
 </html>
